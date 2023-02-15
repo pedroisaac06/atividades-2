@@ -1,0 +1,18 @@
+var comida = "coxinha"
+
+switch (comida) {
+    case "coxinha":
+    console.log("4,50");
+    break
+    case "biscoito recheado":
+        console.log("3,00");
+        break
+        case "Doritos":
+            console.log("3,50");
+            break
+            case "Pão de queijo":
+            console.log("4,00");
+            break
+            default:
+                console.log("comida em falta");
+}
